@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms</title>
+</head>
+<body>
+    <h3><a href="index.html">Home</a></h3>
+    <fieldset>
+        <legend>Login</legend>
+        <label for="name">User Name*</label> <br>
+        <input type="text" id="name"> <br>
+        <label for="pass">Password*</label><br>
+        <input type="password" id="pass">
+    </fieldset>
+    <fieldset>
+        <legend>Gender*</legend>
+        <input type="radio" id="male" name="g">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="g">
+        <label for="female">Female</label>
+    </fieldset>
+    <fieldset>
+        <legend>Programing Skill</legend>
+        <input type="checkbox" id="java">
+        <label for="java">Java</label>
+        <input type="checkbox" id="c++">
+        <label for="c++">C++</label>
+        <input type="checkbox" id="c#">
+        <label for="c#">C#</label>
+    </fieldset>
+    <fieldset>
+        <legend>Fruit</legend>
+        <label for="fruit" >Choose a fruit:</label>
+        <select name="fruit" id="fruit">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="mango">Mango</option>
+        </select>
+    </fieldset>
+    <textarea name="comment" placeholder="Enter your comment here" cols="40" rows="10"></textarea> <br>
+    <button>Send</button><input type="reset">
+</body>
+</html>
